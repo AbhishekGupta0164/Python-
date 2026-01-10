@@ -54,6 +54,7 @@ def draw_trunk():
 lights = []
 light_colors = ["red", "yellow", "blue", "white", "pink"]
 
+
 for _ in range(30):
     light = turtle.Turtle()
     light.shape("circle")
