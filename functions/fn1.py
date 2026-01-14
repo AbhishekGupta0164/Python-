@@ -1,2 +1,2 @@
 #abs() absolute value 
-# all(), 
+# all() returns True if all items in an iterable are true, 
