@@ -15,7 +15,7 @@ ax.set_ylabel('Y')
 ax.set_zlabel('Z')
 ax.set_title('3D Christmas Tree with Blinking Lights 🎄')
 
-# Tree  trunk
+# Tree trunk
 z_trunk = np.linspace(0, 0.5, 10)
 x_trunk = np.zeros_like(z_trunk)
 y_trunk = np.zeros_like(z_trunk)
