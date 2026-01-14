@@ -1,0 +1,2 @@
+#abs() absolute value 
+# all(), 
