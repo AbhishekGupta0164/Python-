@@ -41,7 +41,7 @@ for i, (h, r) in enumerate(zip(heights, radii)):
     tree_points.append(layer_points)
 
 # Lights: random positions within the tree bounds, with initial states
-num_lights = 30
+num_lights = 25
 light_positions = []
 light_states = [random.choice([True, False]) for _ in range(num_lights)]
 light_scatter = None
@@ -70,6 +70,7 @@ def update(frame):
     y_lights = [pos[1] for pos in light_positions]
     z_lights = [pos[2] for pos in light_positions]
     colors = ['yellow' if state else 'darkgreen' for state in light_states]
+    
     sizes = [100 if state else 20 for state in light_states]
     
     light_scatter = ax.scatter(x_lights, y_lights, z_lights, c=colors, s=sizes)
